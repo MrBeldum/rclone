@@ -45,7 +45,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.9.2
 	github.com/golang-jwt/jwt/v5 v5.3.1
 	github.com/google/uuid v1.6.0
-	github.com/hanwen/go-fuse/v2 v2.12.0
+	github.com/hanwen/go-fuse/v2 v2.11.0 // v2.12.0 fails to compile on 32 bit linux - see https://github.com/hanwen/go-fuse/issues/628
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/internxt/rclone-adapter v0.1.0
 	github.com/jcmturner/gokrb5/v8 v8.4.4

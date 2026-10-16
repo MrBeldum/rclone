@@ -66,6 +66,7 @@ Early in the next release cycle update the dependencies.
     - See: [#9539](https://github.com/rclone/rclone/issues/9539)
     - Fixed on the tcell `v2` branch (tcell PR #1154) but not in a release yet (v2.13.10 doesn't have it)
   - `github.com/coreos/go-systemd/v22` v22.6.0 - v22.7.0 fails to compile on netbsd
+  - `github.com/hanwen/go-fuse/v2` v2.11.0 - v2.12.0 fails to compile on 32 bit linux, awaiting fix for [go-fuse/issues/628](https://github.com/hanwen/go-fuse/issues/628)
 - Review Active Pins in go.mod and remove if possible
 - `make updatedirect`
 - The update ignores the pins so put them back, eg
